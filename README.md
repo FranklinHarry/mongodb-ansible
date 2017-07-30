@@ -19,3 +19,8 @@ Running the Playbook
 --------------------
 
 `$ ansible-playbook playbooks/mongodb-ansible.yml --ask-become-pass`
+
+Further Setup
+-------------
+
+To further setup the parameter and create user (including creating a user admin) please see the core module `mongodb_parameter` and `mongodb_user` that is part of the ansible core modules.
