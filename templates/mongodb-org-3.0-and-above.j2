@@ -1,0 +1,6 @@
+[mongodb-org-{{ mongodb_ver }}]
+name=MongoDB Repository
+baseurl=https://repo.mongodb.org/yum/{{ os_family }}/{{ os_ver }}/mongodb-org/{{ mongodb_ver }}/x86_64/
+gpgcheck=1
+enabled=1
+gpgkey=https://www.mongodb.org/static/pgp/server-{{ mongodb_ver }}.asc
